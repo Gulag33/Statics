@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+
+    <!-- Colores Definitivos -->
+
+    <color name="colorPrimary">#42a5f5</color>
+    <color name="colorPrimaryDark">#0091ea</color>
+    <color name="colorAccent">#2979ff</color>
+
+    <color name="cyan_darken">#00acc1</color>
+    <color name="blue_accent">#2979ff</color>
+    <color name="light_green_accent">#64dd17</color>
+    <color name="amber_darken">#ffa000</color>
+    <color name="blue_accent2">#448aff</color>
+    <color name="green_lighten">#66bb6a</color>
+    <color name="colorObligatorio">#00c853</color>
+    <color name="colorbtnmenu">#2979ff</color>
+    <color name="btnexclamacion">#4caf50</color>
+    <color name="barra">#42a5f5</color>
+    <color name="fondosplash">#2979ff</color>
+    <color name="barraprincipal">#0091ea</color>
+    <color name="botongps">#00c853</color>
+    <color name="transparente">#80000000</color>
+    <color name="texto">#ffffff</color>
+
+
+
+</resources>

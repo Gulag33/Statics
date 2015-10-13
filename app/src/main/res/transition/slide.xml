@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transitionManager xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <slide
+        android:duration="3000"/>
+
+    <!-- Estados Entrada-Salida  -->
+    <item name="android:windowEnterTransition">@transition/slide</item>
+    <item name="android:windowExitTransition">@transition/slide</item>
+
+
+
+</transitionManager>

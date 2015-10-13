@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/coordinator"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+
+    <!-- Objeto con Scroll -->
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:orientation="vertical">
+
+            <!-- Card Servicio Grua Remolque -->
+
+
+
+            <!--Etiqueta Grua Remolque -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Servicio Grúa Remolque"
+                android:textSize="16sp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                android:layout_marginLeft="100dp"
+                android:id="@+id/textView5"
+                android:layout_alignParentTop="false"
+                android:layout_alignStart="@+id/textView11"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="15dp" />
+            <!--Texto de detalle-->
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/ima1"
+                android:scaleType="centerCrop"
+                android:src="@drawable/grua_remolque"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="5dp" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#2979ff"
+                android:id="@+id/view"
+                android:layout_below="@+id/ima1"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp" />
+
+
+
+
+
+
+
+
+
+            <!-- Etiqueta Vehiculo Remplazo -->
+            <!--Texto de detalle-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Solicite su Asistencia"
+                android:textSize="10sp"
+                android:layout_marginLeft="100dp"
+                android:id="@+id/textView11"
+                android:layout_below="@+id/textView5"
+                android:layout_alignParentEnd="true" />
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/ima2"
+                android:scaleType="centerCrop"
+                android:src="@drawable/vehiculo_remplazo"
+                android:layout_below="@+id/ima1"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Vehículo de Remplazo"
+                android:textSize="16sp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                android:id="@+id/textView"
+                android:layout_alignTop="@+id/ima2"
+                android:layout_alignStart="@+id/textView11"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Solicite su Asistencia"
+                android:textSize="10sp"
+                android:layout_marginLeft="100dp"
+                android:id="@+id/textView2"
+                android:layout_below="@+id/textView"
+                android:layout_alignStart="@+id/textView"
+                android:layout_alignParentLeft="true" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#2979ff"
+                android:id="@+id/view2"
+                android:layout_below="@+id/ima2"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp" />
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/ima3"
+                android:scaleType="centerCrop"
+                android:src="@drawable/cambio_neumatico"
+                android:layout_below="@+id/ima2"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="20dp" />
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/ima4"
+                android:scaleType="centerCrop"
+                android:src="@drawable/recarga_bateria"
+                android:layout_below="@+id/ima3"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="20dp" />
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/ima5"
+                android:scaleType="centerCrop"
+                android:src="@drawable/apertura_vehiculo"
+                android:layout_below="@+id/ima4"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="20dp" />
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/ima6"
+                android:scaleType="centerCrop"
+                android:src="@drawable/vuelco"
+                android:layout_below="@+id/ima5"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="20dp" />
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/ima7"
+                android:scaleType="centerCrop"
+                android:src="@drawable/colision"
+                android:layout_below="@+id/ima6"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cambio de Neumático"
+                android:textSize="16sp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                android:layout_marginLeft="100dp"
+                android:id="@+id/textView3"
+                android:layout_alignTop="@+id/ima3"
+                android:layout_alignStart="@+id/textView2"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Solicite su Asistencia"
+                android:textSize="10sp"
+                android:layout_marginLeft="100dp"
+                android:id="@+id/textView4"
+                android:layout_below="@+id/textView3"
+                android:layout_alignStart="@+id/textView3"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Recarga de Bateria"
+                android:textSize="16sp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                android:layout_marginLeft="100dp"
+                android:id="@+id/textView6"
+                android:layout_alignTop="@+id/ima4"
+                android:layout_alignStart="@+id/textView4"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Solicite su Asistencia"
+                android:textSize="10sp"
+                android:layout_marginLeft="100dp"
+                android:id="@+id/textView7"
+                android:layout_below="@+id/textView6"
+                android:layout_alignStart="@+id/textView6"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Apertura de Vehículo"
+                android:textSize="16sp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                android:layout_marginLeft="100dp"
+                android:id="@+id/textView8"
+                android:layout_alignTop="@+id/ima5"
+                android:layout_alignStart="@+id/textView7"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Solicite su Asistencia"
+                android:textSize="10sp"
+                android:layout_marginLeft="100dp"
+                android:id="@+id/textView9"
+                android:layout_below="@+id/textView8"
+                android:layout_alignStart="@+id/textView8"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Vuelco"
+                android:textSize="16sp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                android:layout_marginLeft="100dp"
+                android:id="@+id/textView10"
+                android:layout_alignTop="@+id/ima6"
+                android:layout_alignStart="@+id/textView9"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Solicite su Asistencia"
+                android:textSize="10sp"
+                android:layout_marginLeft="100dp"
+                android:id="@+id/textView12"
+                android:layout_below="@+id/textView10"
+                android:layout_alignStart="@+id/textView10"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Colisión"
+                android:textSize="16sp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                android:layout_marginLeft="100dp"
+                android:id="@+id/textView13"
+                android:layout_alignTop="@+id/ima7"
+                android:layout_alignStart="@+id/textView12"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Solicite su Asistencia"
+                android:textSize="10sp"
+                android:layout_marginLeft="100dp"
+                android:id="@+id/textView14"
+                android:layout_below="@+id/textView13"
+                android:layout_alignStart="@+id/textView13"
+                android:layout_alignParentLeft="true" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#2979ff"
+                android:id="@+id/view3"
+                android:layout_below="@+id/ima3"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#2979ff"
+                android:id="@+id/view4"
+                android:layout_below="@+id/ima4"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#2979ff"
+                android:id="@+id/view5"
+                android:layout_below="@+id/ima5"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#2979ff"
+                android:id="@+id/view6"
+                android:layout_below="@+id/ima6"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp" />
+
+
+        </RelativeLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+
+    <!-- App Bar -->
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:fitsSystemWindows="true"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <!-- Collapser -->
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:id="@+id/collapser"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:fitsSystemWindows="true"
+            app:contentScrim="?attr/colorPrimary"
+            app:expandedTitleMarginEnd="64dp"
+            app:expandedTitleMarginStart="48dp"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed"
+            android:background="@drawable/principal">
+
+            <!-- Imagen del detalle -->
+            <ImageView
+                android:id="@+id/image_paralax"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:fitsSystemWindows="true"
+                android:scaleType="centerCrop"
+                app:layout_collapseMode="parallax" />
+
+            <!-- Toolbar -->
+
+            <android.support.v7.widget.Toolbar xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="@android:color/transparent"
+                app:layout_collapseMode="pin"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+                app:theme="@style/CustomActionBar" />
+
+
+        </android.support.design.widget.CollapsingToolbarLayout>
+
+
+    </android.support.design.widget.AppBarLayout>
+
+    <!-- FAB -->
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="@dimen/size_fab"
+        android:layout_height="@dimen/size_fab"
+        android:layout_margin="@dimen/fab_margin"
+        app:borderWidth="0dp"
+        app:elevation="@dimen/fab_elevation"
+        app:layout_anchor="@id/app_bar"
+        app:layout_anchorGravity="bottom|right|end"
+        android:src="@drawable/exclamacion"
+        android:onClick="Show_Dialog" />
+
+
+</android.support.design.widget.CoordinatorLayout>

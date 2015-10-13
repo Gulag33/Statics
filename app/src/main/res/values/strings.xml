@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Statics</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="nombre">Nombre</string>
+
+    <string name="dialogo">Sr usuario:
+en este listado usted podrá solicitar la asistencia, según el tipo de siniestro que haya sufrido.Seleccione el tipo de siniestro y posteriormente ingrese su dirección o utilice la geolocalización.</string>
+</resources>

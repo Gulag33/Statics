@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="600dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:background="@drawable/principal"
+        android:id="@+id/imageView" />
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="30dp"
+        android:id="@+id/edit1"
+        android:hint="Opcion 1"
+        android:textSize="14sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:paddingTop="2dp" />
+
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/edit2"
+        android:layout_below="@+id/edit1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp"
+        android:hint="Opcion 2"
+        android:textSize="14sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:paddingTop="2dp" />
+
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/editddireccion_s"
+        android:layout_below="@+id/edit2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp"
+        android:hint="Direción Siniestro"
+        android:textSize="14sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:paddingTop="2dp" />
+
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/editlocalidad_s"
+        android:layout_below="@+id/editddireccion_s"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp"
+        android:hint="Localidad Siniestro"
+        android:textSize="14sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:paddingTop="2dp" />
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/editciudad_s"
+        android:layout_below="@+id/editlocalidad_s"
+        android:paddingTop="2dp"
+        android:layout_marginTop="20dp"
+        android:hint="Ciudad de Siniestro"
+        android:textSize="14sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/btnmenu"
+        android:background="@drawable/btnmenu"
+        android:layout_marginBottom="34dp"
+        android:layout_marginRight="21dp"
+        android:elevation="10dp"
+        android:src="@mipmap/lines"
+        android:layout_above="@+id/edit2"
+        android:layout_alignEnd="@+id/edit1" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/btnsolicitar"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="Solicitar Asistencia Online"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/editciudad_s"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="5dp"
+        android:background="@color/light_green_accent"
+        android:elevation="10dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/botongps"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="Obtener Mi Ubicación Por Gps"
+        android:textColor="#ffffff"
+        android:background="@color/colorAccent"
+        android:elevation="10dp"
+        android:layout_below="@+id/btnsolicitar"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp" />
+
+
+</RelativeLayout>
